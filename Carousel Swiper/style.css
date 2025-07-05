@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.swipper-wrapper {
+  width: 50%;
+}
+
 .swiper {
   width: 100%;
   max-width: 900px;
