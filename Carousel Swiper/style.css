@@ -1,0 +1,48 @@
+body {
+  background: #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 900px;
+  height: 300px;
+}
+
+.swiper-slide p {
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  position: absolute;
+  bottom: -10%;
+  font-size: 2rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #333;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: clamp(260px, 55vw, 350px);
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(360deg, #000000, #733eac) 1;
+  width: clamp(165px, 40vw, 200px);
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  mask-image: linear-gradient(360deg, transparent, white 60%);
+  width: clamp(600px, 55vw, 800px);
+  margin-top: 35%;
+  height: fit-content; /* ou cover se quiser preencher */
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.slide1, .slide2, .slide3 {
+  background: linear-gradient(180deg, transparent, #a505d7);
+}
