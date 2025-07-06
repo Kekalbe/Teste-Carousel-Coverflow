@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: fit-content;
   height: 100vh;
   margin: 0;
 }
