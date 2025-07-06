@@ -1,15 +1,14 @@
-.swiper-wrapper-14767facc2d9a86a {
-  width: fit-content;
-}
-
 body {
   background: #313131;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20vw;
   height: 100vh;
   margin: 0;
+}
+
+.teste-swiper {
+  width: fit-content;
 }
 
 .swiper {
