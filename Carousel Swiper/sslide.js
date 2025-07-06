@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     slidesPerView: "auto",
     centeredSlides: true,
     cardsEffect: {
-      perSlideOffset: 35,
+      perSlideOffset: 45,
       perSlideRotate: 2,
       rotate: true,
       slideShadows: true
