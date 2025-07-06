@@ -9,7 +9,7 @@ body {
 }
 
 .swiper {
-  width: 100%;
+  width: fit-content;
   height: 300px;
 }
 
