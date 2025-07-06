@@ -65,7 +65,7 @@
           const dir = dist < 0 ? -1 : 1;
           const absDist = Math.abs(dist);
 
-          const offsetX = dir * Math.pow(absDist, 0.8) * 170;
+          const offsetX = dir * Math.pow(absDist, 0.8) * 200;
           const rotateY = dir * absDist * 40;
           const scale = 1 - absDist * 0.1;
 
@@ -98,7 +98,7 @@
         const dir = dist < 0 ? -1 : 1;
         const absDist = Math.abs(dist);
 
-        const offsetX = dir * Math.pow(absDist, 0.8) * 250;
+        const offsetX = dir * Math.pow(absDist, 0.8) * 200;
         const rotateY = dir * absDist * 10;
         const scale = 1 - absDist * 0.1;
 
