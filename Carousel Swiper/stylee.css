@@ -1,15 +1,15 @@
+.swipper-wrapper {
+  width: fit-content;
+}
+
 body {
   background: #313131;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 100vw;
   height: 100vh;
   margin: 0;
-}
-
-.swipper-wrapper {
-  width: fit-content !important;
 }
 
 .swiper {
