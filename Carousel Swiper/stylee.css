@@ -23,6 +23,8 @@ body {
   bottom: -10%;
   font-size: 2rem;
   font-family: 'Gravitas One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #333;
 }
 
