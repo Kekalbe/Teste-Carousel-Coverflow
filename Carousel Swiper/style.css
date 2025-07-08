@@ -13,8 +13,8 @@ body {
 }
 
 .swiper.swiper-cards {
-  overflow: hidden;
-  height: auto;
+  overflow: hidden !important;
+  height: auto !important;
 }
 
 .swiper {
