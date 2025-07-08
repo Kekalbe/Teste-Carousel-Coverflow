@@ -12,10 +12,8 @@ body {
   margin: 0;
 }
 
-.swiper {
+.swiper.swiper-cards.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress {
   overflow: hidden !important;
-  width: 100%;
-  max-width: 900px;
   height: auto !important;
 }
 
