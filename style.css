@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #313131;
+  background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +13,10 @@ body {
 }
 
 .swiper {
+  overflow: hidden !important;
   width: 100%;
   max-width: 900px;
-  height: 300px;
+  height: auto !important;
 }
 
 .swiper-slide p {
